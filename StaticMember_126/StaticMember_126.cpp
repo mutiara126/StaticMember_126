@@ -10,7 +10,9 @@ public:
 
 	void setID();
 	void printAll();
-	mahasiwa(string pnama):nama(pnama){setID();}
-}
+	mahasiwa(string pnama) :nama(pnama) { setID(); }
+};
+
+int mahasiswa : : nim = 0);
 
 
