@@ -13,6 +13,10 @@ public:
 	mahasiwa(string pnama) :nama(pnama) { setID(); }
 };
 
-int mahasiswa : : nim = 0);
+int mahasiswa :: nim = 0);
+
+void mahasiswa::setID() {
+	id = ++nim;
+}
 
 
