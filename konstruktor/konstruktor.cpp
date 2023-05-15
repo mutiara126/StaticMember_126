@@ -7,10 +7,23 @@ private:
 	int nim;
 	string nama;
 public:
-mahasiswa();
-mahasiswa(int);
-mahasiswa(int nim, string nim);
-void cetak();
-
-
+	mahasiswa();
+	mahasiswa(int);
+	mahasiswa(string);
+	mahasiswa(int iNim, string iNama);
+	void cetak();
 };
+
+mahasiswa::mahasiswa() {
+	nim = 0;
+	nama = "";
+}
+
+mahasiswa::mahasiswa(int iNim);
+nim = iNim;
+}
+
+
+
+
+
