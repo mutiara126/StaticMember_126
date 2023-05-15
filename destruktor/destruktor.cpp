@@ -9,6 +9,7 @@ public:
 	angka(int);   //constructor
 	~angka();     //Destruction
 	void cetakData();
+	void isiData();
 
 };
 
