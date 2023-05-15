@@ -1,13 +1,17 @@
 #include <iostream>
 using namespace std;
 
-class angka{
+class angka {
 private:
-	int *arr;
+	int* arr;
 	int panjang;
 public:
 	angka(int);   //constructor
 	~angka();     //Destruction
+	void cetakData();
+
+};
+
 
 
 
